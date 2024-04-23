@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Lake Park Diner Training</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./style.css">
+
+<style>
+</style>
+
+<body>
+    <!-- <div id="logoDiv">
+        <img src="./images/logo.png" alt="Rocco's Taco Logo">
+    </div> -->
+    
+    <div id="portraitContainer">
+        <h1>Please Rotate Screen</h1>
+        <img id="rotateScreenIcon" src="./images/rotateScreenIcon.png" alt="rotate screen icon">
+        <h1>For Drink Recipes</h1>
+    </div>
+    
+    <!-- <div id="portraitButtonDiv">
+            <button class="portraitButtons" onclick="window.open('https://projectdg.github.io/RoccosTacosOTFmenureview/', '_blank')"><span id="menuReviewButton" class="portraitButtonText">Menu Review</span></button>
+            <button class="portraitButtons" onclick="window.open('https://projectdg.github.io/RoccosTacosOTFinventory/', '_blank')"><span id="portraitInventoryButton" class="portraitButtonText">Inventory</span></button>
+            <button class="portraitButtons" onclick="window.open('https://projectdg.github.io/RoccosTacosOTFwellstock/', '_blank')"><span class="portraitButtonText">Well Stock</span></button>
+            <button class="portraitButtons" onclick="window.open('https://projectdg.github.io/RoccosTacosOTFsectionsetup/', '_blank')"><span class="portraitButtonText">Section Setup</span></button>
+            
+    </div> -->
+
+
+
+
+    <!-- Main Container -->
+    <div id="mainContainer">
+        
+        <!-- Top Navigation Bar -->
+        <div id="topNavContainer" class="nav-containers">
+            <button class="nav-buttons top-nav-buttons" id="navMargarita">Cocktails</button>
+            <button class="nav-buttons top-nav-buttons" id="navSpecialty">Mocktails</button>
+        </div>
+
+
+
+        <div id="mainButtonContainer">
+            <div class="form-container">
+                <input id="search" type="text" class="input" placeholder="search..."/>
+                <button id="clear" class="nav-buttons">Clear</button>
+            </div>
+            
+            <div class="results-list" id="list"></div>
+            
+
+            <!-- Drink Photo & Recipe -->
+            <p class="drink-title" id="drinkTitle"></p>
+            <div id="recipeInfoDiv"></div>
+            <img id="drinkPhoto" src="" alt="current drink photo">
+            <div id="recipeDiv"></div>
+            
+            <!--
+            <div id="recipeDiv2"></div>
+            -->
+
+            
+
+        
+
+            <!-- Margarita Buttons -->
+            <div id="margBtnDiv">
+                <button class="all-buttons margarita-buttons" id="lakeParkMojito" value="Lake Park Mojito">Lake Park Mojito</button>
+                <button class="all-buttons margarita-buttons" id="paradisePier" value="Paradise Pier">Paradise Pier</button>
+                <button class="all-buttons margarita-buttons" id="floradora" value="Floradora">Floradora</button>
+                <button class="all-buttons margarita-buttons" id="greenestTea" value="Greenest Tea">Greenest Tea</button>
+                <button class="all-buttons margarita-buttons" id="pineappleRidge" value="Pineapple Ridge">Pineapple Ridge</button>
+                <button class="all-buttons margarita-buttons" id="pricklyPearMargarita" value="Prickly Pear Margarita">Prickly Pear Margarita</button>
+                <button class="all-buttons margarita-buttons" id="seventhAveMartini" value="7th Ave Martini">7th Ave Martini</button>
+                <button class="all-buttons margarita-buttons" id="honeysuckleDerby" value="Honeysuckle Derby">Honeysuckle Derby</button>
+                <button class="all-buttons margarita-buttons" id="tropicalColada" value="Tropical Colada">Tropical Colada</button>
+                <button class="all-buttons margarita-buttons" id="goldenMule" value="Golden Mule">Golden Mule</button>
+                <button class="all-buttons margarita-buttons" id="mangoGimlet" value="Mango Gimlet">Mango Gimlet</button>
+                <button class="all-buttons margarita-buttons" id="cambierSpritz" value="Cambier Spritz">Cambier Spritz</button>
+            </div>
+
+            
+            
+
+            <div id="specialtyBtnDiv">
+                <!-- Specialty Buttons -->
+                <button class="all-buttons specialty-buttons" id="greenTeaSpritz" value="Green Tea Spritz">Green Tea Spritz</button>
+                <button class="all-buttons specialty-buttons" id="magicPalmer" value="Magic Palmer">Magic Palmer</button>
+                <button class="all-buttons specialty-buttons" id="strawberryKiwiSpritz" value="Strawberry Kiwi Spritz">Strawberry Kiwi Spritz</button>
+                <button class="all-buttons specialty-buttons" id="lakeParkLemonade" value="Lake Park Lemonade">Lake Park Lemonade</button>
+                <button class="all-buttons specialty-buttons" id="hempHibiscus" value="Hemp Hibiscus">Hemp Hibiscus</button>
+                <button class="all-buttons specialty-buttons" id="specialtyLemonade" value="Specialty Lemonade">Specialty Lemonade</button>
+            </div>
+
+                <!-- Other Buttons -->
+                <div id="otherBtnDiv">
+                <!--<button class="all-buttons other-buttons" id="" value=""></button>-->
+                <button class="all-buttons other-buttons" id="aperolSpritz" value="Aperol Spritz">Aperol Spritz</button>
+                <button class="all-buttons other-buttons" id="appleMartini" value="Apple Martini">Apple Martini</button>
+                <button class="all-buttons other-buttons" id="chocolateMartini" value="Chocolate Martini">Chocolate Martini</button>
+                <button class="all-buttons other-buttons" id="espressoMartini" value="Espresso Martini">Espresso Martini</button>
+                <button class="all-buttons other-buttons" id="french75" value="French 75">French 75</button>
+                <button class="all-buttons other-buttons" id="frenchMartini" value="French Martini">French Martini</button>
+                <button class="all-buttons other-buttons" id="hurricane" value="Hurricane">Hurricane</button>
+                <button class="all-buttons other-buttons" id="longIslandIcedTea" value="Long Island Iced Tea">Long Island Iced Tea</button>
+                <button class="all-buttons other-buttons" id="maiTai" value="Mai Tai"> Mai Tai</button>
+                <button class="all-buttons other-buttons" id="negroni" value="Negroni">Negroni</button>
+                <button class="all-buttons other-buttons" id="sexOnTheBeach" value="Sex On The Beach">Sex On The Beach</button>
+                <button class="all-buttons other-buttons" id="siesta" value="Siesta">Siesta</button>
+                </div>
+                
+            
+
+        </div><!--end of button container-->
+
+        
+        
+        <!-- Bottom Navigation Container -->
+        <div id="bottomNavContainer" class="nav-containers">
+            <button class="nav-buttons btm-nav-buttons" id="navOther">Other Drinks</button>
+        </div>
+        
+    </div>
+    
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
