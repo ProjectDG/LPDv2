@@ -110,10 +110,10 @@ body {
 
     #portraitContainer{
         height: fit-content;
-        border: 1vh outset rgb(25, 85, 104);
+        border: 1vh outset rgb(199, 215, 145);
         margin: 0% 10%;
         text-align: center;
-        background-color: rgb(38, 127, 154, .85);
+        background-color: rgba(52, 182, 221, 0.9);
         align-items: center;
         justify-content: center;
         padding: 8%;
@@ -127,6 +127,7 @@ body {
         font-family: monospace;
         padding: 2%;
         font-weight: 400;
+        color: antiquewhite;
         text-shadow: 2px 2px rgb(13, 13, 13);
     }
 
@@ -199,7 +200,7 @@ body{
     margin: 0 auto;
     height: 12vh;
     width: 49%;
-    font-size: 3.5vh;
+    font-size: 3vh;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 0 2%;
@@ -219,7 +220,7 @@ body{
     align-items: center;
     text-align: center;
     border: 1vh outset rgb(199, 215, 145);
-    background-color: rgba(52, 182, 221, 0.6);
+    background-color: rgba(52, 182, 221, 0.8);
     margin: auto;
     width: 90%;
     height: 55vh;
@@ -603,8 +604,25 @@ img[src="./images/logo.png"]{
 
 
 
-/* S22 Ultra Resolution 1440 x 3088 */
-
-
 
 /* lenovo tablet TB-8504f  1280 x 800 */
+
+
+
+
+/* S22 Ultra Resolution 1440 x 3088 */
+@media screen and (max-width: 3088px) and (orientation:landscape) {
+    /* .all-buttons{
+      } */
+    
+    .margarita-buttons{
+        width: 14vw;
+        height: 23vh;
+    }  
+    
+    .specialty-buttons{
+        margin: 1vh 3vh;
+        width: 16vw;
+        height: 22vh;
+    } 
+ }
