@@ -31,15 +31,15 @@ class Drink{
    let lakeParkMojito = new Drink
    (
    /* Name */         "Lake Park Mojito",
-   /* Glass */        "? Glass", 
+   /* Glass */        "Collins Glass", 
    /* Rim */          null, 
-   /* Liquor */       ["Don Q Cristal Rum - 2 oz"], 
+   /* Liquor */       ["Don Q Cristal Rum - 1.5 oz"], 
    /* Liqueuer */     null, 
-   /* Mixers */       ["Cucumber - Muddled", "Mint - Muddled", "Blueberry Puree - .5 oz", "Lime Jucie - .5 oz", "Q club Soda - Topped"], 
-   /* Garnish */      ["?"],
+   /* Mixers */       ["Blueberry Puree - .5 oz", "Lime Jucie - .5 oz", "Simple Syrup - .25 oz","Q club Soda - Topped"], 
+   /* Garnish */      ["Blueberries", "Cucumber","& Mint Sprig"],
    /* Image */        null, 
    /* Batch */        null,
-   /* Instructions */ null
+   /* Instructions */ ["Instructions", "--------------------------------", "Cucumber - 2 Slices Muddled", "Mint - 5 Leaves Muddled"]
    );
 
     // PJK Cocktails ................................................................................................
