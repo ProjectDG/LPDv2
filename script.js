@@ -41,6 +41,71 @@ class Drink{
    /* Batch */        null,
    /* Instructions */ ["Instructions", "--------------------------------", "Cucumber - 2 Slices Muddled", "Mint - 5 Leaves Muddled"]
    );
+   let paradisePier = new Drink
+   (
+   /* Name */         "Paradise Pier",
+   /* Glass */        "Can Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["Dulce Vida Blanco - 2 oz"], 
+   /* Liqueuer */     null, 
+   /* Mixers */       ["Lemonade - 2 oz", "Lime Jucie - .5 oz", "Strawberry Puree - .5 oz", "Thyme Sprigs - 2 ( Stripped of Leaves )"], 
+   /* Garnish */      ["Lime Wheel - 1", "Thyme Sprig - 1", "Strawberries - 2"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let floradora = new Drink
+   (
+   /* Name */         "Floradora",
+   /* Glass */        "Collins Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["The Botanist Gin - 1.5 oz"], 
+   /* Liqueuer */     null, 
+   /* Mixers */       ["Raspberry Puree - .75 oz", "Lime Jucie - .75 oz", "Ginger Beer ( Topped )"], 
+   /* Garnish */      ["Raspberry & Cucumber"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let greenestTea = new Drink
+   (
+   /* Name */         "Greenest Tea",
+   /* Glass */        "Collins Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["Rain Vodka - 1.5 oz"], 
+   /* Liqueuer */     ["Peach Schnapps - .5 oz"], 
+   /* Mixers */       ["Green Tea - 3 oz", "Simple Syrup - .75", "Lime Jucie - .5 oz"], 
+   /* Garnish */      ["Rosemary & Lime Wheel"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let pineappleRidge = new Drink
+   (
+   /* Name */         "Pineapple Ridge",
+   /* Glass */        "Can Glass", 
+   /* Rim */          "Salt", 
+   /* Liquor */       ["Jose Cuervo Trad. - 1.5 oz"], 
+   /* Liqueuer */     null, 
+   /* Mixers */       ["Lemonade - 2 oz", "Lime Juice - .5 oz", "Pineapple Juice - .5 oz"], 
+   /* Garnish */      ["Jalapeno & Lime Wheel", "Tajin ( Topped )"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ ["Instructions", "--------------------------------", "Jalapenos 1-2 Muddled"]
+   );
+   let pricklyPearMargaritaLPD = new Drink
+   (
+   /* Name */         "Prickly Pear Margarita",
+   /* Glass */        "Snifter / Rocks Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["Corazon Blanco - 1.5 oz"], 
+   /* Liqueuer */     null, 
+   /* Mixers */       ["Prickly Pear Mix - 1.5 oz", "Lime Juice - .75 oz"], 
+   /* Garnish */      ["Orange & Cherry"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ ["Muddle", "--------------------------------", "1 - Orange", "2 - Cherries"]
+   );
 
     // PJK Cocktails ................................................................................................
    let shisoLovely = new Drink("Shiso Lovely", "Coupe Glass", null, ["Wheatly Vodka - 1.5 oz"], ["St. Germain - 1 oz"], ["Shiso Leaf - 1 ea.","Lemon Juice - 1 oz", "Simple Syrup - .5 oz"], ["Shiso Leaf"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Double Strain"]);
@@ -382,6 +447,17 @@ class Drink{
 
     // Lake Park Diner Cocktails **********************
     lakeParkMojito,
+    paradisePier,
+    floradora,
+    greenestTea,
+    pineappleRidge,
+    pricklyPearMargaritaLPD,
+    // seventhAveMartini,
+    // honeysuckleDerby,
+    // tropicalColada,
+    // goldenMule,
+    // mangoGimlet,
+    // cambierSpritz,
 
     // PJK Cocktails **********************
     shisoLovely,
@@ -627,6 +703,7 @@ class Drink{
             $(".button-container").hide();
             $("#specialtyBtnDiv").hide();
             $("#otherBtnDiv").hide();
+            $("#margBtnDiv").hide();
             $(".item3").show()//.fadeIn(200);
             $("#recipeDiv").show()//.fadeIn(200);
             $(".initialRecipe").show();
