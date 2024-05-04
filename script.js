@@ -104,7 +104,85 @@ class Drink{
    /* Garnish */      ["Orange & Cherry"],
    /* Image */        null, 
    /* Batch */        null,
-   /* Instructions */ ["Muddle", "--------------------------------", "1 - Orange", "2 - Cherries"]
+   /* Instructions */ ["Muddle", "--------------------------------", "1 - Orange Slice", "2 - Cherries"]
+   );
+   let seventhAveMartini = new Drink
+   (
+   /* Name */         "7th Ave Martini",
+   /* Glass */        "Martini Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["Prairie Organic Gin - 2 oz"], 
+   /* Liqueuer */     ["Elderflower Liqueur - .25 oz"], 
+   /* Mixers */       ["Grapefruit Jucie - .5 oz", "Lemon Juice - .25 oz", "Simple Syrup - .25 oz"], 
+   /* Garnish */      ["Lemon Peel & Rosemary"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let honeysuckleDerby = new Drink
+   (
+   /* Name */         "Honeysuckle Derby",
+   /* Glass */        "Rocks Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["1792 Bourbon - 1.5 oz"], 
+   /* Liqueuer */     ["Elderflower Liqueur - .5 oz"], 
+   /* Mixers */       ["Grapefruit Jucie - .75 oz", "Honey Syrup - .75 oz", "Lemon Juice - .5 oz"], 
+   /* Garnish */      ["Lemon Wheel & Grapefruit Wheel"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let tropicalColada = new Drink
+   (
+   /* Name */         "Tropical Colada",
+   /* Glass */        "Collins Glass", 
+   /* Rim */          null, 
+   /* Liquor */       ["Mount Gay Rum - 1.5 oz"], 
+   /* Liqueuer */     null, 
+   /* Mixers */       ["Tumeric Syrup - .5 oz", "Coconut Cream - .5 oz", "Lime Juice - .5 oz"], 
+   /* Garnish */      ["Pineapple & Lime Wedge"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let goldenMule = new Drink
+   (
+   /* Name */         "Golden Mule",
+   /* Glass */        "Mule Mug", 
+   /* Rim */          null, 
+   /* Liquor */       ["Wheatly Vodka - 1.5 oz"], 
+   /* Liqueuer */     null, 
+   /* Mixers */       ["Tumeric Syrup - .5 oz","Lemon Juice - .5 oz", "Ginger Beer (Topped)"], 
+   /* Garnish */      ["Pineapple & Lime Wedge"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ ["Muddle", "--------------------------------", "1 - Orange Slice"]
+   );
+   let mangoGimlet = new Drink
+   (
+   /* Name */         "Mango Gimlet",
+   /* Glass */        "Rocks Glass", 
+   /* Rim */          "Tajin", 
+   /* Liquor */       ["Citrus Vodka - 1.5 oz"], 
+   /* Liqueuer */     ["Triple Sec - .5 oz"], 
+   /* Mixers */       ["Mango Puree - .5 oz","Lime Juice - .5 oz"], 
+   /* Garnish */      ["Orange Slice & Strawberry"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
+   );
+   let cambierSpritz = new Drink
+   (
+   /* Name */         "Cambier Spritz",
+   /* Glass */        "Wine Glass", 
+   /* Rim */          null, 
+   /* Liquor */       null, 
+   /* Liqueuer */     ["Aperol - 1.5 oz"], 
+   /* Mixers */       ["Passionfruit Puree - .5 oz","Prosecco (Topped)"], 
+   /* Garnish */      ["Orange Slice,", "Strawberries - 2,", "Blueberries - 3"],
+   /* Image */        null, 
+   /* Batch */        null,
+   /* Instructions */ null
    );
 
     // PJK Cocktails ................................................................................................
@@ -452,12 +530,12 @@ class Drink{
     greenestTea,
     pineappleRidge,
     pricklyPearMargaritaLPD,
-    // seventhAveMartini,
-    // honeysuckleDerby,
-    // tropicalColada,
-    // goldenMule,
-    // mangoGimlet,
-    // cambierSpritz,
+    seventhAveMartini,
+    honeysuckleDerby,
+    tropicalColada,
+    goldenMule,
+    mangoGimlet,
+    cambierSpritz,
 
     // PJK Cocktails **********************
     shisoLovely,
